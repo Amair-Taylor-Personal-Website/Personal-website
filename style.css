@@ -1,0 +1,44 @@
+h1 {
+    text-align: left;
+    color: turquoise;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+h2 {
+    text-decoration: underline;
+}
+.intro {
+    background-color: turquoise;
+    color: white;
+    padding: 4% 12% 16% 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.9;
+}
+
+/* .buttons {
+    text-transform: capitalize;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.quote {
+    font-size: larger;
+    line-height: 2.9;
+
+}
+
+a:link, a:visited {
+    color: turquoise;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
