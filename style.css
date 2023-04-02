@@ -1,17 +1,36 @@
-h1 {
-    text-align: left;
-    color: turquoise;
+header {
+    top: 0;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px -2px;
+    padding-bottom: 2%;
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 
+body {
+    margin: 0;
+    background: white;
+}
+
+.name {
+    color: turquoise;
+    margin-top: 0;
+}
+
 h2 {
     text-decoration: underline;
+    padding-top: 2%
+   
 }
 .intro {
     background-color: turquoise;
     color: white;
-    padding: 4% 12% 16% 12%;
+    padding: 8% 12% 16% 12%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -19,18 +38,14 @@ p {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.9;
+    background-color: turquoise;
+    padding-left: 12%; 
+    padding-bottom: 4%; 
 }
-
-/* .buttons {
-    text-transform: capitalize;
-    text-align: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
 
 .quote {
     font-size: larger;
     line-height: 2.9;
-
 }
 
 a:link, a:visited {
@@ -38,7 +53,41 @@ a:link, a:visited {
     text-decoration: none;
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
+.firsthobby {
+    color: white;
+    padding: 12% 12% 4% 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.secondhobby {
+    color: white;
+    padding: 4% 12% 4% 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hobbies {
+    background: turquoise;
+}
+
+.projects {
+    background: turquoise;
+}
+
+.firstproject {
+    color: white;
+    padding: 12% 12% 4% 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secondproject {
+    color: white;
+    padding: 4% 12% 4% 12%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    padding-left: 12%;
+    padding-top: 1%;
+}
