@@ -93,9 +93,12 @@ img {
 }
 
 .contactme {
+    display: flex;
+    justify-content: center;
     color: turquoise;
 }
 
 form {
-    padding-left: 10%;
+    display: flex;
+    justify-content: center;
 }
