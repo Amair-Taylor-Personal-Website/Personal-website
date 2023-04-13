@@ -91,3 +91,18 @@ img {
     padding-left: 12%;
     padding-top: 1%;
 }
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    color: turquoise;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    margin-top: 20px;
+}
