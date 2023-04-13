@@ -102,3 +102,7 @@ form {
     display: flex;
     justify-content: center;
 }
+
+.message {
+    margin-top: 20px;
+}
